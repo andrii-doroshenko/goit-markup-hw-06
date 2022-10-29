@@ -73,7 +73,7 @@
         <div class="is-hidden backdrop" data-modal>
           <div class="modal">
             <h2 class="title">Залиште свої дані, ми вам передзвонимо</h2>
-            <form class="order-form" action="https://jsonplaceholder.typicode.com/posts" autocomplete="off" method="post">
+            <form class="order-form" action="#" autocomplete="off" method="post">
               <ul class="list">
                 <li class="item">
                   <input class="order-input" type="text" name="user-name" id="user-name" required />
@@ -442,17 +442,16 @@
                   <li class="item">
                     <a href="https://goo.gl/maps/XzQVGZPJ3VifKMzWA" class="link address-link">м. Київ, пр-т Лесі Українки, 26</a>
                   </li>
-
                   <li class="item">
                     <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                   </li>
-
                   <li class="item">
                     <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
                   </li>
                 </ul>
               </address>
             </li>
+
             <li class="item">
               <h2 class="footer-title">Приєднуйтесь</h2>
               <ul class="list social-footer-list">
@@ -485,6 +484,20 @@
                   </a>
                 </li>
               </ul>
+            </li>
+
+            <li class="item sibscribe-item">
+              <h2 class="footer-title">Підпишіться на розсилку</h2>
+              <form class="subscribe-form" action="#" autocomplete="off" method="post">
+                <label for="subscribe-input" class="subscribe-labe visually-hidden">Пошта</label>
+                <input class="subscribe-input" type="email" name="user-email" id="subscribe-input" required placeholder="E-mail" />
+                <button type="submit" class="btn btn-primary subscribe-btn">
+                  Підписатися
+                  <svg class="subscribe-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </form>
             </li>
           </ul>
         </div>
